@@ -12,7 +12,6 @@ Delay time (From clk to output A):32.29E-12{delay(?wf1 v("/clk_n" ?result "tran"
 Delay time (From clk to output B):64.37E-12{delay(?wf1 v("/clk_n" ?result "tran"), ?value1 0.6, ?edge1 "falling", ?nth1 6, ?td1 0.0, ?wf2 v("/B" ?result "tran"), ?value2 0.6, ?edge2 "rising", ?nth2 1,  ?td2 nil , ?stop nil, ?multiple nil)}
 Delay time (From clk to output C):10.02E-12{delay(?wf1 v("/clk_n" ?result "tran"), ?value1 0.6, ?edge1 "falling", ?nth1 1, ?td1 0.0, ?wf2 v("/C" ?result "tran"), ?value2 0.6, ?edge2 "rising", ?nth2 1,  ?td2 nil , ?stop nil, ?multiple nil)}
 
-Setup time:
-Hold time:
+
 Frequency:Min:(approx 0)
           Max(close or less than 3.125Mhz)
