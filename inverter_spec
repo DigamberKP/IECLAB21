@@ -1,0 +1,4 @@
+Risetime of O/p:13.80E-12{Expression:-riseTime(v("/OUT" ?result "tran") 0 nil 1.2 nil 10 90 nil "time" )}
+Falltime of O/P:13.80E-12{Expression:-fallTime(v("/OUT" ?result "tran") 0 nil 0 nil 10 90 nil "time" )}
+Delay High to Low:10.26E-12{Expression:-delay(?wf1 v("/IN" ?result "tran"), ?value1 0.6, ?edge1 "rising", ?nth1 2, ?td1 0.0, ?wf2 v("/OUT" ?result "tran"), ?value2 0.6, ?edge2 "falling", ?nth2 2,  ?td2 nil , ?stop nil, ?multiple nil)}
+Delay Low to High:12.40E-12{Expression:-delay(?wf1 v("/IN" ?result "tran"), ?value1 0.6, ?edge1 "falling", ?nth1 2, ?td1 0.0, ?wf2 v("/OUT" ?result "tran"), ?value2 0.6, ?edge2 "rising", ?nth2 2,  ?td2 nil , ?stop nil, ?multiple nil)}
