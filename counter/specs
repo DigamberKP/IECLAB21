@@ -1,5 +1,17 @@
-Rise time:
-Fall time:
+For A
+Rise time:50.89E-12{Expression:-riseTime(v("/A" ?result "tran") 0 nil 1.2 nil 10 90 nil "time" )}
+Fall time:50.89E-12{Expression:-fallTime(v("/A" ?result "tran") 0 nil 1.2 nil 10 90 nil "time" )}
+For B
+Rise time:37.76E-12{Expression:-riseTime(v("/B" ?result "tran") 0 nil 1.2 nil 10 90 nil "time" )}
+Fall time:37.76E-12{Expression:-fallTime(v("/B" ?result "tran") 0 nil 1.2 nil 10 90 nil "time" )}
+For C
+Rise time:28.67E-12{Expression:-riseTime(v("/C" ?result "tran") 0 nil 1.2 nil 10 90 nil "time" )}
+Fall time:28.67E-12{Expression:-fallTime(v("/C" ?result "tran") 0 nil 1.2 nil 10 90 nil "time" )}
+
+Delay time (From clk to output A):32.29E-12{delay(?wf1 v("/clk_n" ?result "tran"), ?value1 0.6, ?edge1 "falling", ?nth1 1, ?td1 0.0, ?wf2 v("/A" ?result "tran"), ?value2 0.6, ?edge2 "rising", ?nth2 1,  ?td2 nil , ?stop nil, ?multiple nil)}
+Delay time (From clk to output B):64.37E-12{delay(?wf1 v("/clk_n" ?result "tran"), ?value1 0.6, ?edge1 "falling", ?nth1 6, ?td1 0.0, ?wf2 v("/B" ?result "tran"), ?value2 0.6, ?edge2 "rising", ?nth2 1,  ?td2 nil , ?stop nil, ?multiple nil)}
+Delay time (From clk to output C):10.02E-12{delay(?wf1 v("/clk_n" ?result "tran"), ?value1 0.6, ?edge1 "falling", ?nth1 1, ?td1 0.0, ?wf2 v("/C" ?result "tran"), ?value2 0.6, ?edge2 "rising", ?nth2 1,  ?td2 nil , ?stop nil, ?multiple nil)}
+
 Setup time:
 Hold time:
 Frequency:
