@@ -14,4 +14,5 @@ Delay time (From clk to output C):10.02E-12{delay(?wf1 v("/clk_n" ?result "tran"
 
 Setup time:
 Hold time:
-Frequency:
+Frequency:Min:(approx 0)
+          Max(close or less than 3.125Mhz)
